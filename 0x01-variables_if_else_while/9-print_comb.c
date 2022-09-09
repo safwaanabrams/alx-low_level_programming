@@ -7,17 +7,14 @@
 int main(void)
 
 {
-  int number;
+  int c;
 
-  for (number = 48; number <= 57; number++)
+  for (c= 48; c <= 57; c++)
   { 
-       putchar(number);
+       putchar(c);
 
-       if (number == 57)
-       {
-            break;
-       }
-
+       if (c != 57)
+      {
        putchar(',');
        putchar (' ');
    }
