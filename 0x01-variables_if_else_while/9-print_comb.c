@@ -7,21 +7,22 @@
 int main(void)
 
 {
-int number;
-for (number = 48; number <= 57; number++)
-{ 
-putchar(number);
+  int number;
 
-if (number == 57)
-{
-break;
-}
+  for (number = 48; number <= 57; number++)
+  { 
+       putchar(number);
 
-putchar(',');
-putchar (' ');
-}
+       if (number == 57)
+       {
+            break;
+       }
 
-putchar('\n');
+       putchar(',');
+       putchar (' ');
+   }
 
-return (0);
+   putchar('\n');
+
+   return (0);
 }
