@@ -38,6 +38,6 @@ int main(void)
 
 	return (0);
 }
-"0-putchar.c" 23L, 252C
+
 
 
